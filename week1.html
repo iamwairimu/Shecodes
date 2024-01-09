@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week1 Challenge</title>
+    <style>
+      .emoji {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        font-size: 30px;
+        margin: 10px;
+      }
+      h2 {
+        text-align: center;
+        color: #1964d6;
+        margin: 0;
+        font-size: 30px;
+      }
+      p {
+        text-align: center;
+        font-size: 30px;
+        margin: 8px;
+      }
+      ul {
+        text-align: center;
+        list-style: none;
+        padding: 0px;
+        background-color: #ffffff;
+        transition: background-color 0.5s;
+        max-width: 50%;
+        margin: 0 auto;
+      }
+      li:hover {
+        background-color: #fefbef;
+        border-radius: 10px;
+        border: 5px solid #ffffff;
+        margin: 0px;
+        padding: 0px;
+      }
+      .weather {
+        font-size: 20px;
+        padding: 0px;
+        margin-top: 50px;
+      }
+      .temp {
+        font-size: 15px;
+        font-family: monospace;
+      }
+      button {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        padding: 15px;
+        border: 1px solid #1964d6;
+        border-radius: 30px;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.2);
+        transition-duration: 150ms;
+        transition: all ease-in;
+        font-size: 15px;
+        background-color: #1964d6;
+        color: #ffffff;
+      }
+      button:hover {
+        cursor: pointer;
+        color: #1964d6;
+        background-color: #ffffff;
+      }
+      .credit {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 19px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emoji">
+      <h1>&#127780;</h1>
+    </div>
+    <h2>Currently 21° in Tokyo</h2>
+    <p>13° / <strong> 23° </strong></p>
+    <ul>
+      <li>
+        <h4 class="weather">&#127783; <strong> Tomorrow</strong></h4>
+        <p class="temp">10° / <strong> 22°</strong></p>
+      </li>
+      <li>
+        <h4 class="weather">🌥️ <strong> Saturday</strong></h4>
+        <p class="temp">15° / <strong> 17°</strong></p>
+      </li>
+      <li>
+        <h4 class="weather">☀️ <strong> Sunday</strong></h4>
+        <p class="temp">25° / <strong> 28°</strong></p>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <p class="credit">Coded by Leah Kimani</p>
+  </body>
+</html>
